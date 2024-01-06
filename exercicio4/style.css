@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap");
+
+:root {
+  --cor-fundo: #ece9fd;
+  --cor-primaria: #090039;
+
+  --font: "Epilogue", sans-serif;
+
+  font-size: 62.5%;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--cor-fundo);
+  font-family: var(--font);
+  font-size: 1.6rem;
+
+  padding: 6.0rem 2.3rem 6.6rem;
+}
+@media screen and (min-width: 1024px) {
+  body{
+    padding: 8.0rem 28.4rem 10.8rem 13.5rem;
+  }
+}
+
+.hero {
+  margin-bottom: 7.2rem;
+}
+@media only screen and (min-width: 1024px) {
+   main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+    gap: 11.6rem;
+
+    width: auto;
+   }
+}
+
+.hero p,
+a {
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+}
+
+main p:first-child {
+  color: #7158ef;
+  margin-bottom: 1.7rem;
+  letter-spacing: 0.3rem;
+
+  text-transform: uppercase;
+}
+
+.hero h1,
+p {
+  width: 32.9rem;
+}
+@media only screen and (min-width: 1024px) {
+   .hero h1, p{
+    width: 48.4rem;
+  }
+}
+
+.hero h1 {
+  font-weight: 800;
+  font-size: 4.0rem;
+  line-height: 4.8rem;
+  color: var(--cor-primaria);
+
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+@media only screen and (min-width: 1024px) {
+  .hero h1 {
+    margin-bottom: 3.1rem;
+  }
+}
+
+h1 + p {
+  color: rgba(10, 0, 57, 0.64);
+
+  margin-bottom: 3.2rem;
+}
+@media only screen and (min-width: 1024px) {
+  h1 + p {
+    margin-bottom: 2.8rem;
+  }
+}
+
+.hero a {
+  text-decoration: none;
+  color: var(--cor-primaria);
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4.3rem;
+}
+@media only screen and (min-width: 1024px) {
+  .list-container {
+    gap: 3.2rem;
+  }
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+
+  align-items: center;
+}
+@media only screen and (min-width: 1024px) {
+  .list-item {
+    gap: 5.4rem;
+  }
+}
+
+.list-container .list-item span {
+  font-size: 7.2rem;
+  font-weight: 800;
+  line-height: 8.0rem;
+  text-align: center;
+
+  width: 4.7rem;
+
+  color: var(--cor-primaria);
+}
+@media only screen and (min-width: 1024px) {
+  .list-container .list-item span {
+    width: 8.0rem;
+  }
+}
+
+.list-item {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: bold;
+
+  width: 25.7rem;
+
+  color: var(--cor-primaria);
+}
+@media only screen and (min-width: 1024px) {
+  .list-item {
+    width: 50.0rem;
+  }
+}
