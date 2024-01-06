@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@400;700&family=Mulish&family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin: 65px 122px 58px;
+}
+
+.logo {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+
+  line-height: 26px;
+}
+
+.logo,
+span {
+  color: #89c5cc;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+
+  gap: 48px;
+}
+
+nav ul li {
+  list-style: none;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+
+  color: #1f1534;
+}
+
+nav ul li:nth-child(1) {
+  font-weight: bold;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 112px;
+
+  margin: 0 122px 82px;
+}
+
+main div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  width: 489px;
+  height: 332px;
+}
+
+main div h1 {
+  font-family: "Mulish", sans-serif;
+  font-weight: normal;
+  font-size: 49px;
+  line-height: 56px;
+}
+
+main div p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: normal;
+
+  color: #7d7987;
+}
+
+main div button {
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 14px 32px;
+
+  cursor: pointer;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+
+  width: 179px;
+  height: 56px;
+
+  background: #69b99d;
+  color: #f9f9f9;
+}
+
+.img-jump {
+  width: 417px;
+  height: 433px;
+}
+
+footer {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+
+  margin-bottom: 30px;
+
+  line-height: 28px;
+}
+
+.balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
