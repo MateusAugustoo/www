@@ -56,7 +56,6 @@ O grid, se você não informar a quantidade e altura das linhas, ele define para
 
 ![](./imgMd/06.png)
 
-**Neste exemplo esta colocando mais 4 linhas uma largura de 10.5rem;**
+**Neste exemplo esta colocando nas 4 linhas uma largura de 10.5rem;**
 
-este é o resuldado no HTML
 ![](./imgMd/07.png)
