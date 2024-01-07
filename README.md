@@ -8,4 +8,4 @@ Este repositório serve como um registro para os exercícios que tenho concluíd
 - **/Exercicio2:** É um ecercicio bem semples de uma pagina web, somente para treina sobre flexbox e grid no CSS.
 - **/Exercicio3:** É um exercicio para treina as tags de forms do HTML e ver tipo de seletores do CSS.
 - **/Exercicio4:** É um exercico no tema mobile first, sobre responsividade no CSS.
-- **/Exercicio4:** É um rexercicio para reforçar a responsividade/Mobile first CSS.
+- **/Exercicio5:** É um rexercicio para reforçar a responsividade/Mobile first CSS.
