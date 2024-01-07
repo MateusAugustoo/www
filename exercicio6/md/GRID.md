@@ -78,3 +78,35 @@ Propriedades para posicionar os elementos dentro do grid
   - grid-row-end: eu informo em qual linha meu elemento termina.
   
 ---
+
+### Propriedades de alinhamento
+
+Existem 9 propriedades fundamentais
+
+**6 aplicadas em container**
+- align-contant
+- justify-contant
+- place-contant
+
+- align-items
+- justify-items
+- place-items
+
+**3 aplicadas em items**
+- align-self
+- justify-self
+- place-self
+
+Então podemos separar em 3 grupos
+align, justify, place
+
+O **align** Alinha de acordo com o eixo Y.
+O **justify** Alinha de acordo com o eixo X.
+O **place** E a junção do align e justify, assim modificando o eixo XY.
+
+E cada um deles irá observar ou o
+- conteúdo do elemento **content**
+- itens do elemento **items**
+- o proprio elemento **self**
+
+---
