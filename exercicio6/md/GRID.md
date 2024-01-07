@@ -41,7 +41,7 @@ assim todos os elementos filhos mesmo tendo o comportamento inlime(**um ao lado 
 ### grid-template-colums;
 O grid-template-colums eu informo a quantidade de columas que meu layout grid vai ter, tambem informando a largura de cada columa, utilizando as medidas em: px, rem, vw ou fr.
 
-Em um exemplo que eu tenha que ter 3 colums do mesmo tamanho, eu posso ultilizar uma propriedade chamada **repeat()**:
+Em um exemplo que eu tenha que ter 4 colums do mesmo tamanho, eu posso ultilizar uma propriedade chamada **repeat()**:
 ex: 
  ![](./imgMd/04.png)
 
@@ -59,3 +59,22 @@ O grid, se você não informar a quantidade e altura das linhas, ele define para
 **Neste exemplo esta colocando nas 4 linhas uma largura de 10.5rem;**
 
 ![](./imgMd/07.png)
+
+Você também pode ultilizar o grid-tamplate-rows junto com o grid-tamplate-colums
+![](./imgMd/08.png)
+
+Neste caso estou definindo que havera 2 columas e que na primeira linha terá 1fr de altura, já na segunda ela terá 200px de altura.
+
+### ITEMS;
+
+Propriedades para posicionar os elementos dentro do grid
+
+- grid-column; shorthand
+  - grid-column-start: eu informo qual columa eu quero que meu elemento começe
+  - grid-column-end: eu informo qual columa eu quero que meu elemento termine
+
+- grid-row; shorthand
+  - grid-row-start: eu informo em qual linha meu elemento começa.
+  - grid-row-end: eu informo em qual linha meu elemento termina.
+  
+---
