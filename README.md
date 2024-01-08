@@ -9,3 +9,5 @@ Este repositório serve como um registro para os exercícios que tenho concluíd
 - **/Exercicio3:** É um exercicio para treina as tags de forms do HTML e ver tipo de seletores do CSS.
 - **/Exercicio4:** É um exercico no tema mobile first, sobre responsividade no CSS.
 - **/Exercicio5:** É um rexercicio para reforçar a responsividade/Mobile first CSS.
+- **/Exercício6:** E um exercício para prática o display: GRID e suas propriedades
+- **/Exercício6/md/GRID.md/** É um pequeno resumo sobre GRID e algumas propriedades 
