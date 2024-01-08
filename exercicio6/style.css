@@ -1,8 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap');
+
 
 :root {
   --color-background:#121214;
   --color-text: #E1E1E6;
+  --color-card: #202024;
 
   font-size: 62.5%;
+}
+
+::after,
+::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+
+  font-family: 'Mulish';
+  font-size: 1.6rem;
+
+  display: grid;
+  justify-content: center;
+
+  padding: 7.2rem 10.4rem;
+}
+
+header h1 {
+  font-weight: 900;
+  font-size: 5.6rem;
+  line-height: 7.2rem;
+
+  color: #02799D;
+}
+
+header p{
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 4.0rem;
+}
+
+main {
+  margin-top: 6.2rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 37.0rem);
+
+  gap: 4.8rem 6.0rem;
+}
+
+.card {
+  background: var(--color-card);
+
+  border: 0.2rem solid #323238;
+  border-radius: 0.8rem;
+
+  overflow: hidden;
+}
+
+.card h2{
+  font-size: 3.5rem;
+  color: #E1E1E6;
+
+  padding: 2.4rem 3.2rem 0;
+}
+
+.card p {
+  font-size: 1.8rem;
+  font-weight: 600;
+
+  padding: 2.4rem 3.2rem 3.2rem;
 }
